@@ -18,9 +18,6 @@ Run npm install in the terminal
 react
 react-native
 react-native-vector-icons
-react-navigation
-react-redux
-redux
-redux-logger
-redux-thunk
+
+
 
