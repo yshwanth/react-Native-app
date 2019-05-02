@@ -22,17 +22,17 @@ export default class Loggedout extends Component {
             
     
         <View style={styles.welcomeWrapper}>
-        <Text style={styles.welcomeText}>Welcome to Preg-app</Text>
+        <Text style={styles.welcomeText}>Welcome </Text>
         <Roundedbutton
         text="Continue with Facebbok"
-        textColor={colors.green01}
+        textColor={colors.black}
         background={colors.white}
         icon={<Ionicons name="logo-facebook"size={30} style={styles.facebookButtonIcon}/>}
         handleOnPress={this.onFacebookPress}
         />
         <Roundedbutton
         text="Create Account"
-        textColor={colors.white}
+        textColor={colors.black}
         handleOnPress={this.onCreateAccountPress}
         />
 
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     wrapper:{
         flex:1,
         display:'flex',
-        backgroundColor:colors.green01,
+        backgroundColor:colors.b,
     },
     welcomeWrapper:{
         flex:1,
@@ -69,12 +69,12 @@ const styles = StyleSheet.create({
     },
     welcomeText:{
         fontSize: 30,
-        color: colors.white,
+        color: colors.black,
         fontWeight: '300',
         marginBottom:40,
     },
     facebookButtonIcon:{
-        color:colors.green01,
+        color:colors.b,
         position:'relative',
         left:20,
         zIndex:8,
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
         marginTop:12,
     },
     moreOptionsButtonText:{
-        color:colors.white,
+        color:colors.black,
         fontSize:16,
     },
     termsAndConditions:{
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
         flexDirection:'row',
     },
     termsText:{
-        color:colors.white,
+        color:colors.black,
         fontSize:13,
         fontWeight:'500',
     }
