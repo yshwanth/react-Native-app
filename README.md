@@ -15,11 +15,11 @@
 
 </table>
 ## How to use
-- Clone
-- Run npm install in the terminal
-- For Expo
-- npm install -g expo-cli
-- expo start
+-  Clone
+-  Run npm install in the terminal
+-  For Expo
+-  npm install -g expo-cli
+-  expo start
 
 ## Dependencies
 - react
