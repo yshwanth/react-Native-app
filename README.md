@@ -3,9 +3,9 @@
 
 <table>
 <tr>
-    <td><img src="./screenshots/loggedOut.png" width="100"></td>
-    <td><img src="./screenshots/logIn.png" width="100"></td>
-	<td><img src="./screenshots/logInError.png" width="100"></td>
+    <td><img src="./screenshots/loggedOut.png" width="200"></td>
+    <td><img src="./screenshots/logIn.png" width="200"></td>
+	<td><img src="./screenshots/loginError.png" width="200"></td>
  <tr>
 </table>
 
