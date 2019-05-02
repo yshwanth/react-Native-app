@@ -76,7 +76,7 @@ export default class Login extends Component{
     render(){
         const {formValid} = this.state;
         const showNotification = formValid ? false : true;
-        const background = formValid ? colors.green01 :colors.darkOrange;
+        const background = formValid ? colors.a :colors.darkOrange;
         return(
             <KeyboardAvoidingView style={[{backgroundColor:background},styles.wrapper]} behavior="padding" >
             <View style={styles.scrollViewWrapper}>
