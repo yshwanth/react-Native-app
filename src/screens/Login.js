@@ -14,7 +14,7 @@ export default class Login extends Component{
     constructor(props){
         super(props);
         this.state={
-            formValid:false,
+            formValid:true,
             validEmail:false,
             emailAddress:'',
             validPassword:false,
